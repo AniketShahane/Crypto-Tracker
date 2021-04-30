@@ -34,7 +34,7 @@ function App() {
 		}, 5000);
 
 		return () => clearInterval(intervalId); //This is important
-	}, [useState]);
+	}, []);
 
 	const handleChange = (e) => {
 		setSearch(e.target.value);
